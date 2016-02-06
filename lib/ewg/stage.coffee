@@ -1,5 +1,3 @@
-process = require 'process'
-
 stage = {
   current: ->
     return 'production' if stage.isProduction()
