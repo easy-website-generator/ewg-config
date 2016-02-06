@@ -39,9 +39,12 @@ describe 'ewg-Config', ->
       fs.writeFileSync(dynamicYaml,
         fs.readFileSync(orgYaml))
 
+      doneCalled = false
       config = new Config(dynamicYaml, (config)=>
         expect( config.changed ).to.be.true
-        done()
+        unless doneCalled
+          doneCalled = true
+          done()
       )
 
       fs.writeFileSync(dynamicYaml,
