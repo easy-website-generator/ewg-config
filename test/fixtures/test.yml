@@ -1,0 +1,11 @@
+development: &default
+  stage_indicator: 'development'
+  changed: true
+
+test:
+  <<: *default
+  stage_indicator: 'test'
+
+production:
+  <<: *default
+  stage_indicator: 'production'
