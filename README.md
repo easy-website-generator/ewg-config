@@ -3,7 +3,7 @@
 
 The config module used by Easy-Website-Generator
 
-### installation
+### installation 
 ``npm install --save ewg-config``
 
 ### Ressources
