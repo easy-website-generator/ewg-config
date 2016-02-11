@@ -1,6 +1,6 @@
 {
   "name": "ewg-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ewg config module",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/easy-website-generator/ewg-config#readme",
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "ewg-logging": "^1.0.0",
+    "ewg-logging": "*",
     "js-yaml": "^3.5.2"
   },
   "devDependencies": {
